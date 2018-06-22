@@ -1,0 +1,52 @@
+body {
+    text-align: center;
+    background-color: brown;
+}
+
+#gioco {
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    margin:0 auto;
+}
+
+#tris {
+    height: 100%;
+    width: 100%;
+    padding:20px;
+    background-color:black;
+}
+
+.casella {
+    border-style: solid;
+    padding:40px 50px 40px 40px;
+    height:60px;
+    background-color: white;
+    color: black;
+    font-size:120%;
+    width: 5px;
+}
+
+h2 {
+    margin-top:20px;
+    margin-bottom: 20px;
+    font-size: 140%;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h3 {
+    margin-top: 2px;
+    margin-bottom: 20px;
+    font-size: 110%;
+    font-style: oblique;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#restart {
+    font-size: 120%;
+    font-weight: 500;
+    border-radius: 15%;
+    border-width: 10px;
+    border-style: outset;
+}

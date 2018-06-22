@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <title>Tris</title>
+        <link rel="stylesheet" href="style.css">
+        <meta charset="utf-8">
+    </head>
+
+    <body>
+        <h2>Tris</h2>
+        <h3 id="turno"></h3>
+        <div id="gioco"> 
+            <table id="tris">
+                <tr>
+                    <td><button class="casella" onclick="setValue(this)" data-i="0" data-j="0"></button></td>
+                    <td><button class="casella" onclick="setValue(this)" data-i="0" data-j="1"></button></td> 
+                    <td><button class="casella" onclick="setValue(this)" data-i="0" data-j="2"></button></td>
+                </tr>
+                <tr>
+                    <td><button class="casella" onclick="setValue(this)" data-i="1" data-j="0"></button></td>
+                    <td><button class="casella" onclick="setValue(this)" data-i="1" data-j="1"></button></td> 
+                    <td><button class="casella" onclick="setValue(this)" data-i="1" data-j="2"></button></td>
+                </tr>
+                <tr>
+                    <td><button class="casella" onclick="setValue(this)" data-i="2" data-j="0"></button></td>
+                    <td><button class="casella" onclick="setValue(this)" data-i="2" data-j="1"></button></td> 
+                    <td><button class="casella" onclick="setValue(this)" data-i="2" data-j="2"></button></td>
+                </tr>
+            </table>
+        </div>
+
+        <h2 id="error"></h2>
+        <script src="script.js"></script>
+
+        <button id="restart" onclick="newGame()"> Restart </button>
+    </body> 
+</html>
